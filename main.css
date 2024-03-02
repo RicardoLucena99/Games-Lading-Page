@@ -27,8 +27,33 @@ header nav li a {
 
 }
 
-header .container {
+header .container,
+section .container {
   display: flex;  
   align-items: center;
   justify-content: space-between;
+}
+
+.branch img {
+  height: 24px;
+}
+
+section .container {
+  align-items: flex-start;
+}
+
+section {
+  padding: 24px 0;
+}
+
+section h2 {
+  margin-bottom: 16px;
+}
+
+section p {
+  margin-bottom: 8px;
+}
+
+.store {
+  margin-right: 32px;
 }
