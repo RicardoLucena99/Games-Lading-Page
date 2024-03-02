@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+header,
+section h2 {
+  font-family: "Bungee", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
 header {
   padding: 16px 0;
   background-color: rgb(91, 16, 161);
@@ -12,7 +25,7 @@ header {
 header nav li {
   display: inline;
   margin-left: 16px;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 header nav li a {
@@ -34,7 +47,12 @@ section .container {
   justify-content: space-between;
 }
 
-.branch img {
+.brands li {
+  display: inline;
+  margin-right: 8px;
+}
+
+.brands img {
   height: 24px;
 }
 
@@ -48,6 +66,10 @@ section {
 
 section h2 {
   margin-bottom: 16px;
+}
+
+section {
+  color: rgb(91, 16, 161);
 }
 
 section p {
